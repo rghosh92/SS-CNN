@@ -8,14 +8,14 @@ along with various network architectures.
 The scale steerable basis functions are being created in scale_steering_lite.py. 
 The dataset splits for MNIST-Scale, FMNIST-Scale and MNIST-Scale-local are provided as well. 
 
-The main code where the SS-CNN is trained is in testSSCNN.py. The dataset class is also included in that file,
+The main code where the SS-CNN is trained is in main_test.py. The dataset class is also included in that file,
 where the images are being resized to twice their size and max-normalized (optional). 
 
-To run on the different datasets, one can simply change the dataset_name paramter in the main function of testSSCNN, 
+To run on the different datasets, one can simply change the dataset_name paramter in the main function of main_test.py, 
 along with the training size, batch size and total_epochs. 
 
 Important to note is that the are predefined networks for each of the datasets in ScaleSteerableInvariant_Network.py, 
-any of which can be used by changing the Networks_to_train parameter in testSSCNN.py. 
+any of which can be used by changing the Networks_to_train parameter in main_test.py. 
 
 
 
