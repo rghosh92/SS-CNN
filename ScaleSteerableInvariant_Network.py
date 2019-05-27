@@ -174,10 +174,10 @@ class ScaleConv_steering(nn.Module):
 
         super(ScaleConv_steering, self).__init__()
 
-        kernel_size = ntuple(2)(kernel_size)
-        stride = ntuple(2)(stride)
-        padding = ntuple(2)(padding)
-        dilation = ntuple(2)(dilation)
+        # kernel_size = ntuple(2)(kernel_size)
+        # stride = ntuple(2)(stride)
+        # padding = ntuple(2)(padding)
+        # dilation = ntuple(2)(dilation)
         self.in_channels = in_channels
         self.out_channels = out_channels
         self.kernel_size = kernel_size
