@@ -14,7 +14,7 @@ where the images are being resized to twice their size and max-normalized (optio
 To run on the different datasets, one can simply change the dataset_name paramter in the main function of main_test.py, 
 along with the training size, batch size and total_epochs. 
 
-Important to note is that the are predefined networks for each of the datasets in ScaleSteerableInvariant_Network.py, 
+Important: Note that there are predefined networks for each of the datasets in ScaleSteerableInvariant_Network.py, 
 any of which can be used by changing the Networks_to_train parameter in main_test.py. 
 
 
