@@ -1,7 +1,7 @@
 # SS-CNN
 Scale-Steered CNN Implementation for PyTorch.
 This is the official code repository for the paper 
-"Scale Steerable Filters for Locally Scale-Invariant Convolutional Neural Networks"
+"Scale Steerable Filters for Locally Scale-Invariant Convolutional Neural Networks" (https://arxiv.org/abs/1906.03861)
 
 Please refer to ScaleSteerableInvariant_Network.py for the network library which contains the SS-CNN layer
 along with various network architectures. 
