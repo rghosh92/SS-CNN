@@ -16,6 +16,7 @@ along with the training size, batch size and total_epochs.
 
 Important: Note that there are predefined networks for each of the datasets in ScaleSteerableInvariant_Network.py, 
 any of which can be used by changing the Networks_to_train parameter in main_test.py. 
+Also, note that the current implementation assumes availability of cuda. To change to a non-cuda based implementation, you will need to remove all mentions of .cuda() for a start. 
 
 
 
